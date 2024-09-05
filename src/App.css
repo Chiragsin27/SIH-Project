@@ -1,0 +1,134 @@
+.flexcontainer1{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-top: 20px;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 24 24"><path fill="%23FF0E28" stroke="%23FF0D27" stroke-width="0.5" d="M15 9V4.5c0-.83-.67-1.5-1.5-1.5h-3C9.67 3 9 3.67 9 4.5V9H4.5C3.67 9 3 9.67 3 10.5v3c0 .83.67 1.5 1.5 1.5H9v4.5c0 .83.67 1.5 1.5 1.5h3c.83 0 1.5-.67 1.5-1.5V15h4.5c.83 0 1.5-.67 1.5-1.5v-3c0-.83-.67-1.5-1.5-1.5H15Z"></path></svg>'),auto;
+}
+.flexcontainer2{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 80%;
+  margin-left: 120px;
+  margin-right: 100px;
+  justify-content: space-between;
+  margin-top: 9px;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 24 24"><path fill="%23FF0E28" stroke="%23FF0D27" stroke-width="0.5" d="M15 9V4.5c0-.83-.67-1.5-1.5-1.5h-3C9.67 3 9 3.67 9 4.5V9H4.5C3.67 9 3 9.67 3 10.5v3c0 .83.67 1.5 1.5 1.5H9v4.5c0 .83.67 1.5 1.5 1.5h3c.83 0 1.5-.67 1.5-1.5V15h4.5c.83 0 1.5-.67 1.5-1.5v-3c0-.83-.67-1.5-1.5-1.5H15Z"></path></svg>'),auto;
+}
+.banner{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px;
+  border-top: solid;
+  border-color: antiquewhite;
+}
+.hospitalvideo{
+  width: 1000px;
+  height: 100%;
+  opacity: 0.5;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 24 24"><path fill="%23FF0E28" stroke="%23FF0D27" stroke-width="0.5" d="M15 9V4.5c0-.83-.67-1.5-1.5-1.5h-3C9.67 3 9 3.67 9 4.5V9H4.5C3.67 9 3 9.67 3 10.5v3c0 .83.67 1.5 1.5 1.5H9v4.5c0 .83.67 1.5 1.5 1.5h3c.83 0 1.5-.67 1.5-1.5V15h4.5c.83 0 1.5-.67 1.5-1.5v-3c0-.83-.67-1.5-1.5-1.5H15Z"></path></svg>'),auto;
+}
+.board{
+  background-color: rgb(38, 105, 167);
+  width:600px;
+  padding: 60px;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="48" viewBox="0 0 24 24"><path fill="%23FF0E28" stroke="%23FF0D27" stroke-width="0.5" d="M15 9V4.5c0-.83-.67-1.5-1.5-1.5h-3C9.67 3 9 3.67 9 4.5V9H4.5C3.67 9 3 9.67 3 10.5v3c0 .83.67 1.5 1.5 1.5H9v4.5c0 .83.67 1.5 1.5 1.5h3c.83 0 1.5-.67 1.5-1.5V15h4.5c.83 0 1.5-.67 1.5-1.5v-3c0-.83-.67-1.5-1.5-1.5H15Z"></path></svg>'),auto;
+}
+.board{
+  background-color: rgb(11, 52, 89);
+}
+
+.innerboard{
+  border: 2px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  background-color: aliceblue;
+  padding: 40px;
+  box-shadow: -1px 1px 0 #000,
+                         1px 1px 0 #000,
+                         1px -1px 0 #000,
+                         -1px -1px 0 #000;
+}
+.innerboard {
+  box-shadow: -1px 1px 0 rgba(13, 47, 45, 0.968),
+                         5px 5px 0 rgba(13, 47, 45, 0.968),
+                         7px -7px 0 rgba(13, 47, 45, 0.968),
+                         -8px -8px 0 rgba(13, 47, 45, 0.968);
+                         
+                         /* box-shadow: -1px 1px 0 #45bab4,
+                         5px 5px 0 #448ccf,
+                         7px -7px 0 #5bc3c3,
+                         -8px -8px 0 #66dddb; */
+}
+.innerboard2{
+  display: flex;
+  flex-direction: column;
+}
+.boardelement{
+  margin-bottom: 40px;
+  height: 40px;
+}
+.input{
+  padding-left: 70px;
+}
+.input:hover {
+  -webkit-box-shadow:0px 0px 1px 1px rgba(45,255,196,0.9);
+-moz-box-shadow: 0px 0px 1px 1px rgba(45,255,196,0.9);
+box-shadow: 0px 0px 1px 1px rgba(45,255,196,0.9);
+}
+.button{
+  height: 40px;
+  width: 80px;
+  background-color: rgb(34, 101, 163);
+  border: 0cap;
+  color: aliceblue;
+}
+.button:hover {
+  background-color: rgb(15, 59, 101);
+  
+  
+}
+
+.header{
+  margin-top: 0px;
+  background-color: rgba(13, 47, 45, 0.968);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(72, 11, 14);
+  color: antiquewhite;
+}
+.hr{
+  color: rgba(13, 47, 45, 0.968);
+
+}
+.slogan1{
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 90px;
+  font-size: 80px;
+  color:aliceblue;
+  font-weight: bolder;
+  /* border-style: solid;
+  border: 2px;
+  border-color: black; */
+  text-shadow: -2px 2px 0 #113a46,
+                         2px 2px 0 #113a46,
+                         2px -2px 0 #113a46,
+                         -2px -2px 0 #113a46;
+}
+.slogan2{
+  margin-left: 100px;
+  position: fixed;
+  margin-top: 280px;
+  font-size: 20px;
+  color:aliceblue;
+  text-shadow: -1.1px 1.1px 0 #113a46,
+                         1.1px 1.1px 0 #113a46,
+                         1.1px -1.1px 0 #113a46,
+                         -1.1px -1.1px 0 #113a46;
+}
